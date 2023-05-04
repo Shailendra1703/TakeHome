@@ -37,7 +37,7 @@ const Accordian = ({ question, answer }) => {
     <div className="flex justify-center mx-2">
       <div className="m-2 md:px-5  pl-2 py-3 border border-[#249cc5] sm:w-3/4 w-full mx-auto rounded-lg ">
         <h1
-          className="sm:font-bold font-semibold flex justify-between items-center cursor-pointer px-2 md:px-0 text-sm md:text-md"
+          className="sm:font-bold font-semibold flex justify-between items-center cursor-pointer px-2 md:px-0 font-poppins text-sm md:text-md"
           onClick={() => setShow(!show)}
         >
           ❔ {question}

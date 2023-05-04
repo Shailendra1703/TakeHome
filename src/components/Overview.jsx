@@ -9,7 +9,7 @@ const Overview = () => {
           OVERVIEW
         </span>
       </p>
-      <p className="font-poppins md:text-center max-w-7xl mx-auto md:text-md text-sm px-4 text-left">
+      <p className="font-poppins md:text-center max-w-7xl mx-auto   px-4 text-left">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi debitis
         quam tempore? Mollitia magni ratione minima laboriosam similique
         nesciunt iusto quisquam iste placeat! Deserunt ab distinctio, omnis
