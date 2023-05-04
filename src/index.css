@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital@0;1&family=Courgette&family=Roboto&family=Smooch&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button.rec-dot {
+  background-color: rgb(186, 186, 186);
+  box-shadow: 0 0 1px 3px rgba(255, 255, 255, 0.5);
+}
+button.rec.rec-arrow:hover,
+button.rec.rec-arrow:active,
+button.rec.rec-arrow:focus {
+  /* box-shadow: 0 0 1px 3px rgba(255, 99, 213, 0.5); */
+  background-color: #249cc5;
+}
+.rec.rec-dot_active {
+  background: #249cc5;
+  border: 1px solid white;
+}
+button.rec-dot:hover,
+button.rec-dot:active,
+button.rec-dot:focus {
+  box-shadow: 0 0 1px 3px rgba(4, 129, 157, 0.573);
 }
